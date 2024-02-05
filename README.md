@@ -1,2 +1,2 @@
 # Bookhub
-Web for Bookhub project 
+Domain branch for the BookHub project website
