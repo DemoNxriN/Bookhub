@@ -49,6 +49,14 @@ footer {
     text-align: center;
 }
 
+.image{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .product .details {
     flex: 2;
     padding: 20px;
@@ -58,7 +66,7 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: auto;
+    /*margin-bottom: auto;*/
     display: inline-block;
 }
 
