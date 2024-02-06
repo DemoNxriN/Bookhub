@@ -133,7 +133,6 @@ footer {
 
 
 
-
 /* Estilos de la sección de productos */
 .product-section {
     display: flex;
@@ -281,8 +280,7 @@ footer {
 
 
 
-/* Estilos responsivos para pantallas pequeñas */
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
     .card {
         width: 48%;
         margin: 0 auto;
