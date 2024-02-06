@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Estilos de Librerias */
 body {
     margin: 0;
     padding: 0;
@@ -131,8 +131,9 @@ footer {
 
 
 
-/*Estilos de Libros individuales*/
 
+
+/* Estilos de Libros */
 .product-section {
     display: flex;
     flex-wrap: wrap;
@@ -164,6 +165,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 
 .img {
     max-height: 70%;
@@ -282,20 +284,34 @@ footer {
 @media (max-width: 768px) {
     .card {
         width: 48%;
-        margin: 0 1%; 
+        margin: 0 auto;
+    }
+
+    .card-section {
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
     }
 }
 
 
 @media (max-width: 480px) {
     .card {
-        width: 100%; 
-        margin: 0 0 20px; 
+        width: 48%;
+        margin: 0 auto;
     }
 
     .card-section {
-        justify-content: flex-start; 
-        align-items: stretch; 
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
     }
 }
-
