@@ -282,7 +282,7 @@ footer {
 
 
 /* Estilos responsivos para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .card {
         width: 48%;
         margin: 0 auto;
