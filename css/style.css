@@ -246,7 +246,7 @@ footer {
     align-items: center;
     text-align: center;
     margin: auto;
-    max-width: 30%; /* Ajustar el ancho máximo según sea necesario */
+    width: 30%;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
