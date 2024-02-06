@@ -65,6 +65,7 @@ footer {
 
 
 .card {
+    flex: 1;
     width: 22%;
     margin-bottom: 20px;
     border: 1px solid #ccc;
