@@ -230,6 +230,14 @@ footer {
     max-height: 500px;
 }
 
+/* Estilos del formulario principal */
+.form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 /* Estilos del formulario de inicio de sesión */
 .login-form {
     display: flex;
