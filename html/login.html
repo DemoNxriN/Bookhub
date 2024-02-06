@@ -15,6 +15,7 @@
     <nav>
         <ul>
             <div class="auth-buttons">
+                <button class="btn-auth" onclick="redirectToIndex()">Inicio</button>
                 <button class="btn-auth" onclick="redirectToLogin()">Iniciar Sesión</button>
                 <button class="btn-auth" onclick="redirectToRegister()">Registrarse</button>
             </div>
@@ -41,17 +42,23 @@
     </footer>
 
     <script>
+        
         function redirectToDetails(page) {
-            window.location.href = page;
+            window.location.href = page
+        }
+
+        function redirectToIndex() {
+            window.location.href = '../index.html'
         }
 
         function redirectToLogin() {
-            window.location.href = './login.html';
+            window.location.href = './login.html'
         }
 
         function redirectToRegister() {
-            window.location.href = './register.html';
+            window.location.href = './register.html'
         }
+        
     </script>
 </body>
 </html>

@@ -16,7 +16,8 @@
         <ul>
             <li>
                 <div class="auth-buttons">
-                    <button class="btn-auth" onclick="redirectToLogin()">Iniciar Sesión</button>
+                    <button class="btn-auth" onclick="redirectToIndex()">Inicio</button>
+                    <button class="btn-auth" onclick="redirectToLogin()">Iniciar Sesión</button>    
                     <button class="btn-auth" onclick="redirectToRegister()">Registrarse</button>
                 </div>
             </li>
@@ -84,16 +85,21 @@
 
     <script>
         function redirectToDetails(page) {
-            window.location.href = page;
+            window.location.href = page
+        }
+
+        function redirectToIndex() {
+            window.location.href = './index.html'
         }
 
         function redirectToLogin() {
-            window.location.href = './html/login.html';
+            window.location.href = './html/login.html'
         }
 
         function redirectToRegister() {
-            window.location.href = './html/register.html';
+            window.location.href = './html/register.html'
         }
+
     </script>
 </body>
 </html>
