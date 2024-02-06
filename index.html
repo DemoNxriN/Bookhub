@@ -14,10 +14,12 @@
 
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li>
+                <div class="auth-buttons">
+                    <button class="btn-auth" onclick="redirectToLogin()">Iniciar Sesión</button>
+                    <button class="btn-auth" onclick="redirectToRegister()">Registrarse</button>
+                </div>
+            </li>
         </ul>
     </nav>
 
@@ -83,6 +85,14 @@
     <script>
         function redirectToDetails(page) {
             window.location.href = page;
+        }
+
+        function redirectToLogin() {
+            window.location.href = './php/login.php';
+        }
+
+        function redirectToRegister() {
+            window.location.href = './php/register.php';
         }
     </script>
 </body>

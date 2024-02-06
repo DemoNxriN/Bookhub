@@ -114,3 +114,19 @@ footer {
         width: 80%;
     }
 }
+
+.btn-auth,
+.btn-register {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px; /* Espaciado entre los botones */
+}
+
+.btn-auth:hover,
+.btn-register:hover {
+    background-color: #2980b9;
+}
