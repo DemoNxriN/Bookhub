@@ -1,4 +1,4 @@
-/* Estilos de Librerias */
+/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-
+/* Estilos del encabezado */
 header {
     background-color: #172a3a;
     color: #fff;
@@ -16,7 +16,7 @@ header {
     padding: 10px;
 }
 
-
+/* Estilos de la barra de navegación */
 nav {
     background-color: #1f3647;
     color: #fff;
@@ -41,14 +41,14 @@ nav a {
     color: #fff;
 }
 
-
+/* Estilos del contenido principal */
 main {
     flex: 1;
     padding: 20px;
     background-color: #f4f4f4;
 }
 
-
+/* Estilos del pie de página */
 footer {
     background-color: #172a3a;
     color: #fff;
@@ -56,14 +56,14 @@ footer {
     padding: 10px;
 }
 
-
+/* Estilos de la sección de tarjetas */
 .card-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-between;
 }
 
-
+/* Estilos de las tarjetas */
 .card {
     flex: 1;
     width: 22%;
@@ -78,7 +78,7 @@ footer {
     transition: transform 0.3s ease;
 }
 
-
+/* Estilos de las imágenes dentro de las tarjetas */
 .card img {
     max-width: 100%;
     height: auto;
@@ -86,7 +86,7 @@ footer {
     margin-bottom: 10px;
 }
 
-
+/* Estilos de los botones */
 .btn {
     background-color: #4CAF50;
     color: white;
@@ -100,18 +100,18 @@ footer {
     background-color: #45a049;
 }
 
-
+/* Estilos de animación al pasar el ratón sobre las tarjetas y los botones */
 .card:hover,
 .btn:hover {
     transform: scale(1.1);
 }
 
-
+/* Estilo para tarjetas reducidas */
 .shrunken {
     transform: scale(0.9);
 }
 
-
+/* Estilos de botones de autenticación y registro */
 .btn-auth,
 .btn-register {
     background-color: #3498db;
@@ -123,25 +123,20 @@ footer {
     margin-right: 10px;
 }
 
-
+/* Estilos al pasar el ratón sobre botones de autenticación y registro */
 .btn-auth:hover,
 .btn-register:hover {
     background-color: #2980b9;
 }
 
-
-
-
-
-
-/* Estilos de Libros */
+/* Estilos de la sección de productos */
 .product-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-
+/* Estilos de cada producto */
 .product {
     width: 90%;
     margin: 20px;
@@ -153,51 +148,51 @@ footer {
     overflow: hidden;
 }
 
-
+/* Estilos de la sección de imágenes del producto */
 .product .image {
     flex: 1;
     text-align: center;
 }
 
-
-.image{
-    max-height:100%;
+/* Estilos de la imagen del producto */
+.image {
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+/* Estilos para imágenes específicas */
 .img {
     max-height: 70%;
 }
 
-
+/* Estilos de la sección de detalles del producto */
 .product .details {
     flex: 2;
     padding: 20px;
 }
 
-
+/* Estilos de la imagen dentro del producto */
 .product img {
     max-width: 80%;
     height: auto;
     border-radius: 8px;
 }
 
-
+/* Estilos del precio */
 .price {
     font-size: 18px;
     font-weight: bold;
     color: #4CAF50;
 }
 
-
+/* Estilos de la descripción del producto */
 .description {
     margin-bottom: 10px;
 }
 
-
+/* Estilos del botón de detalles */
 .btn-details {
     background-color: #4CAF50;
     color: white;
@@ -207,19 +202,19 @@ footer {
     cursor: pointer;
 }
 
-
+/* Estilos de la sección de detalles adicionales */
 .more-details {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
 }
 
-
+/* Estilos al mostrar los detalles adicionales */
 .more-details.show {
     max-height: 500px;
 }
 
-
+/* Estilos del formulario principal */
 .form-main {
     display: flex;
     justify-content: center;
@@ -227,7 +222,7 @@ footer {
     height: 100vh;
 }
 
-
+/* Estilos del formulario de inicio de sesión */
 .login-form {
     display: flex;
     flex-direction: column;
@@ -273,15 +268,7 @@ footer {
     background-color: #2980b9;
 }
 
-
-
-
-
-
-
-
-
-
+/* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 768px) {
     .card {
         width: 48%;
@@ -298,7 +285,6 @@ footer {
         width: 80%;
     }
 }
-
 
 @media (max-width: 480px) {
     .card {
