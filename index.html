@@ -2,117 +2,101 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" sizes="64x64" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Librería Online</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
-    <title>Bookhub</title>
 </head>
 <body>
+
     <header>
-        <h1>Encabezado</h1>
+        <h1>BookHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-                <div class="auth-buttons">
-                    <button class="btn-auth" onclick="redirectToIndex()">Inicio</button>
-                    <button class="btn-auth" onclick="redirectToLogin()">Iniciar Sesión</button>    
-                    <button class="btn-auth" onclick="redirectToRegister()">Registrarse</button>
-                </div>
-            </li>
-        </ul>
-    </nav>
+    <section class="main-content">
+        <article>
+            <h2>Libro 1</h2>
+            <img src="./img/GOD1.jpg" alt="Portada Libro 1">
+            <p>Descripción del libro 1...</p>
+            <button>Comprar</button>
+        </article>
 
-    <main>
-        <section class="card-section">
-            <div class="card">
-                <img src="./img/GOD1.jpg" alt="Imagen 1">
-                <p>Texto de la tarjeta 1</p>
-                <button class="btn" onclick="redirectToDetails('./html/card1.html')">Ver más detalles</button>
-            </div>
+        <article>
+            <h2>Libro 2</h2>
+            <img src="./img/GOD2.jpg" alt="Portada Libro 2">
+            <p>Descripción del libro 2...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD2.jpg" alt="Imagen 2">
-                <p>Texto de la tarjeta 2</p>
-                <button class="btn" onclick="redirectToDetails('./html/card2.html')">Ver más detalles</button>
-            </div>
+        <article>
+            <h2>Libro 3</h2>
+            <img src="./img/GOD1.jpg" alt="Portada Libro 3">
+            <p>Descripción del libro 3...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD1.jpg" alt="Imagen 3">
-                <p>Texto de la tarjeta 3</p>
-                <button class="btn" onclick="redirectToDetails('./html/card3.html')">Ver más detalles</button>
-            </div>
+        <article>
+            <h2>Libro 4</h2>
+            <img src="./img/GOD2.jpg" alt="Portada Libro 4">
+            <p>Descripción del libro 4...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD2.jpg" alt="Imagen 4">
-                <p>Texto de la tarjeta 4</p>
-                <button class="btn" onclick="redirectToDetails('./html/card4.html')">Ver más detalles</button>
-            </div>
-        </section>
+        <!-- Agrega más artículos según sea necesario -->
 
-        <!-- Nueva fila de cartas -->
-        <section class="card-section">
-            <div class="card">
-                <img src="./img/GOD1.jpg" alt="Imagen 5">
-                <p>Texto de la tarjeta 5</p>
-                <button class="btn" onclick="redirectToDetails('./html/card5.html')">Ver más detalles</button>
-            </div>
+        <!-- Segunda fila de artículos -->
+        <article>
+            <h2>Libro 5</h2>
+            <img src="./img/GOD1.jpg" alt="Portada Libro 5">
+            <p>Descripción del libro 5...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD2.jpg" alt="Imagen 6">
-                <p>Texto de la tarjeta 6</p>
-                <button class="btn" onclick="redirectToDetails('./html/card6.html')">Ver más detalles</button>
-            </div>
+        <article>
+            <h2>Libro 6</h2>
+            <img src="./img/GOD2.jpg" alt="Portada Libro 6">
+            <p>Descripción del libro 6...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD1.jpg" alt="Imagen 7">
-                <p>Texto de la tarjeta 7</p>
-                <button class="btn" onclick="redirectToDetails('./html/card7.html')">Ver más detalles</button>
-            </div>
+        <article>
+            <h2>Libro 7</h2>
+            <img src="./img/GOD1.jpg" alt="Portada Libro 7">
+            <p>Descripción del libro 7...</p>
+            <button>Comprar</button>
+        </article>
 
-            <div class="card">
-                <img src="./img/GOD2.jpg" alt="Imagen 8">
-                <p>Texto de la tarjeta 8</p>
-                <button class="btn" onclick="redirectToDetails('./html/card8.html')">Ver más detalles</button>
-            </div>
-        </section>
-    </main>
+        <article>
+            <h2>Libro 8</h2>
+            <img src="./img/GOD2.jpg" alt="Portada Libro 8">
+            <p>Descripción del libro 8...</p>
+            <button>Comprar</button>
+        </article>
+
+        <article>
+            <h2>Libro 8</h2>
+            <img src="./img/GOD1.jpg" alt="Portada Libro 8">
+            <p>Descripción del libro 8...</p>
+            <button>Comprar</button>
+        </article>
+
+        <article>
+            <h2>Libro 8</h2>
+            <img src="./img/GOD2.jpg" alt="Portada Libro 8">
+            <p>Descripción del libro 8...</p>
+            <button>Comprar</button>
+        </article>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Bookhub</p>
+        <p>&copy; 2024 Mi Librería Online. Todos los derechos reservados.</p>
     </footer>
 
-    <script>
-        function redirectToDetails(page) {
-            window.location.href = page
-        }
-
-        function redirectToIndex() {
-            window.location.href = './index.html'
-        }
-
-        function redirectToLogin() {
-            window.location.href = './html/login.html'
-        }
-
-        function redirectToRegister() {
-            window.location.href = './html/register.html'
-        }
-
-
-        window.onload = function() {
-            checkWindowSize();
-        };
-        window.onresize = function() {
-            checkWindowSize();
-        };
-        function checkWindowSize() {
-            if (window.innerWidth <= 480) { 
-                window.location.href = './html/.html';
-            }
-        }
-
-    </script>
 </body>
 </html>
