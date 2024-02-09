@@ -60,13 +60,6 @@ article {
     text-align: center;
 }
 
-article img {
-    /* Ancho máximo del 100% */
-    /*width: 80%;
-    height: 50%;
-    margin: 2%;*/
-}
-
 article p {
     padding: 2%; /* Ajuste con porcentaje */
 }
