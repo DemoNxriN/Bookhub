@@ -61,9 +61,10 @@ article {
 }
 
 article img {
-    width: 80%; /* Ancho máximo del 100% */
+    /* Ancho máximo del 100% */
+    /*width: 80%;
     height: 50%;
-    margin: 2%;
+    margin: 2%;*/
 }
 
 article p {
