@@ -56,12 +56,14 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centro los elementos verticalmente */
+    align-items: center; 
     text-align: center;
 }
 
+/*article img {}*/
+
 article p {
-    padding: 2%; /* Ajuste con porcentaje */
+    padding: 2%;
 }
 
 button {
