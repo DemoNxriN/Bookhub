@@ -70,7 +70,7 @@ article p {
     padding: 2%;
 }
 
-button {
+button.main-page {
     background-color: #4CAF50; 
     color: #fff;
     padding: 2% 2%;
@@ -82,7 +82,7 @@ button {
     width: 80%;
 }
 
-button:hover {
+button.main-page:hover {
     background-color: #45a049;
 }
 
@@ -93,6 +93,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/*ESTILOS DE LIBROS*/
 
 @media (max-width: 600px) {
     article {
