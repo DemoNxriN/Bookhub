@@ -94,6 +94,8 @@ footer {
     padding: 10px;
 }
 
+/*ESTILOS DE LIBROS*/
+
 @media (max-width: 600px) {
     article {
         margin: 10px;
