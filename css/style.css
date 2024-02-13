@@ -101,3 +101,29 @@ footer {
     }
 }
 
+/* Css Books*/
+.card-container {
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.card-content {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Color de fondo del recuadro */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card-img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    max-width: 150px;
+    height: auto;
+}
+
+.card-text {
+    overflow: hidden;
+}
