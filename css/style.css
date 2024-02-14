@@ -30,10 +30,13 @@ nav li {
     margin: 0 10px;
 }
 
-nav a {
+nav button.button-nav {
     text-decoration: none;
     color: #ffdc00;
     padding: 0 1em;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
 }
 
 .main-content {
