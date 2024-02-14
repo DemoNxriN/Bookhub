@@ -7,22 +7,14 @@ body {
     min-height: 100vh;
 }
 
-h2 {
-    font-size: 1.3em;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
+header, nav {
+    background-color: #001f3f;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
 }
 
 nav {
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -38,10 +30,9 @@ nav li {
     margin: 0 10px;
 }
 
-
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #ffdc00;
     padding: 0 1em;
 }
 
@@ -52,41 +43,48 @@ nav a {
 }
 
 article {
-    width: 100%; /* En dispositivos más pequeños, ocupa todo el ancho */
-    max-width: 300px; /* Ancho máximo en pantallas más grandes */
-    margin: 1%; /* Ajuste con porcentaje */
-    background-color: #fff; /* Fondo blanco */
+    width: 100%;
+    max-width: 300px;
+    margin: 1%;
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     text-align: center;
+    position: relative;
 }
 
-/*article img {}*/
+article h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0 20px; /* Ajuste del margen superior del h2 */
+}
 
-article p {
+article h4 {
     padding: 2%;
+    margin-bottom: 40px;
 }
 
 button.main-page {
-    background-color: #4CAF50; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
     color: #fff;
     padding: 2% 2%;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 2%;
-    width: 50%;
+    margin: 10px 0; /* Ajuste del margen inferior del botón */
     width: 80%;
 }
 
 button.main-page:hover {
     background-color: #45a049;
 }
-
-
 footer {
     background-color: #333;
     color: #fff;
@@ -94,16 +92,20 @@ footer {
     padding: 10px;
 }
 
-/*ESTILOS DE LIBROS*/
+/* ESTILOS DE LIBROS */
 
 @media (max-width: 600px) {
     article {
         margin: 10px;
         padding: 10px;
     }
+    
+    article h2 {
+        font-size: 1.2em;
+    }
 }
 
-/* Css Books*/
+/* CSS Books */
 .card-container {
     max-width: 800px;
     margin: 50px auto;
