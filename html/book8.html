@@ -13,10 +13,12 @@
         </header>
     
         <nav>
-            <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
-            <button  class="button-nav">Catálogo</button >
-            <button class="button-nav">Contacto</button >
+           <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
+            <button class="button-nav" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" button-nav onclick="redirectToRegister()">Registro</button>
+            <button class="button-nav" onclick="redirectToContact()">Contacto</button>
         </nav>
+
         <div class="card-container">
             <div class="card-content">
                 <img class="card-img" src="../img/Bodas de sangre.jpg" alt="Descripción de la imagen">
@@ -41,13 +43,14 @@
     }
 
     function redirectToLogin() {
-        window.location.href = "../login.html"
+        window.location.href = "./login.html";
     }
-    function redirectToLogin() {
-        window.location.href = "../register.html"
+    function redirectToRegister() {
+        window.location.href = "./register.html";
     }
-    function redirectToLogin() {
-        window.location.href = "../contact.html"
+    
+    function redirectToContact() {
+        window.location.href = "./contact.html";
     }
     
 </script>
