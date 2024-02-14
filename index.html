@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
         <link rel="stylesheet" href="./css/style.css">
         <title>Bookhub</title>
     </head>
@@ -14,8 +15,9 @@
     
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
-            <button  class="button-nav">Catálogo</button >
-            <button class="button-nav">Contacto</button >
+            <button class="button-nav" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" button-nav onclick="redirectToRegister()">Registro</button>
+            <button class="button-nav" onclick="redirectToContact()">Contacto</button>
         </nav>
     
         <section class="main-content"> 
@@ -88,7 +90,7 @@
                 <h4>Ana Frank</h4>
                 <button class="main-page" onclick="redirectToDetails('./html/book10.html')">Ver más</button>
             </article>
-            
+
             <article>
                 <h2>El libro de la selva</h2>
                 <img src="./img/El libro de la selva.jpg" alt="Portada Libro 2">
