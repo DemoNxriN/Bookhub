@@ -8,7 +8,7 @@ body {
 }
 
 header, nav {
-    background-color: #001f3f;
+    background-color: #555555;
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -32,11 +32,15 @@ nav li {
 
 nav button.button-nav {
     text-decoration: none;
-    color: #ffdc00;
+    color: #ffffff;
     padding: 0 1em;
     border: none;
     border-radius: 4px;
-    height: 25px;
+    height: 30px;
+    width: 23%;
+    background-color: #004080;
+    margin: auto;
+    bottom: 0;
 }
 
 .main-content {
@@ -88,6 +92,7 @@ button.main-page {
 button.main-page:hover {
     background-color: #45a049;
 }
+
 footer {
     background-color: #333;
     color: #fff;
@@ -109,10 +114,17 @@ footer {
 }
 
 /* CSS Books */
-.card-container {
-    max-width: 800px;
+
+div.content {
+    height: 44.45em;
+}
+
+div.card-container {
+    width: 80%;
+    height: auto;
     margin: 50px auto;
     overflow: hidden;
+    width: 80%;
 }
 
 .card-content {
