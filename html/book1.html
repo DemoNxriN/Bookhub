@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/comments.js" defer></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -31,6 +32,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="comment-section">
+            <h2>Comentarios</h2>
+            <form action="../php/comments.php" method="post">
+                <label for="comment">Deja tu comentario:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Publicar comentario">
+            </form>
+        </div>
+
+        <div id="commentsContainer"></div>
+
         <footer>
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
         </footer>
