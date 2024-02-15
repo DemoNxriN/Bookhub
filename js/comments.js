@@ -36,6 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Puedes implementarla según tus necesidades
     }
 
-    // Llamada inicial para cargar los comentarios existente    s
+    // Llamada inicial para cargar los comentarios existentes
     fetchComments();
 });
