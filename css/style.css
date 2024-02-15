@@ -192,3 +192,7 @@ div.card-container {
 .comment-section input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.commentsContainer {
+    height: 400px;
+}
