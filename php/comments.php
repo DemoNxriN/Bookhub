@@ -53,13 +53,22 @@ $result = $conn->query($sql);
 
 // Verificar si hay resultados
 if ($result->num_rows > 0) {
-    // Iterar sobre los resultados y mostrar los comentarios
+    // Crear un array para almacenar los comentarios
+    $commentsArray = array();
+
+    // Iterar sobre los resultados y agregar cada comentario al array
     while ($row = $result->fetch_assoc()) {
-        echo "<div class='comment'>{$row['texto']} - {$row['fecha']}</div>";
+        $commentsArray[] = array(
+            'texto' => $row['texto'],
+            'fecha' => $row['fecha']
+        );
     }
+
+    // Imprimir el array en formato JSON
+    echo json_encode($commentsArray);
 } else {
-    // Si no hay comentarios, mostrar un mensaje
-    echo "No hay comentarios aún.";
+    // Si no hay comentarios, imprimir un mensaje
+    echo json_encode(array('message' => 'No hay comentarios aún.'));
 }
 
 // Cerrar la conexión a la base de datos
