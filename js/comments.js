@@ -1,41 +1,37 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("commentForm").addEventListener("submit", function(event) {
+// Asumiendo que tienes este código en tu HTML o archivo JS actual
+document.addEventListener('DOMContentLoaded', function () {
+    var commentForm = document.querySelector('.comment-form');
+    var commentsContainer = document.querySelector('.comments-container');
+
+    commentForm.addEventListener('submit', function (event) {
         event.preventDefault();
-        submitComment();
+
+        var formData = new FormData(commentForm);
+
+        fetch(commentForm.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Manejar la respuesta del servidor
+            if (data.error) {
+                console.error('Error:', data.error);
+            } else {
+                // Crear un nuevo elemento para el comentario
+                var newComment = document.createElement('div');
+                newComment.className = 'comment';
+                newComment.textContent = data.texto; // Ajusta según la estructura de tu comentario
+
+                // Agregar el nuevo comentario al contenedor de comentarios
+                commentsContainer.appendChild(newComment);
+
+                // Limpiar el área de texto del formulario
+                commentForm.reset();
+            }
+        })
+        .catch(error => {
+            console.error('Error de red:', error);
+        });
     });
-
-    function submitComment() {
-        var commentText = document.getElementById('comment').value;
-
-        if (commentText.trim() !== '') {
-            fetch('../php/comments.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: 'comment=' + encodeURIComponent(commentText),
-            })
-            .then(response => response.text())
-            .then(data => {
-                console.log(data);
-                // Puedes manejar la respuesta del servidor aquí si es necesario
-
-                // Actualizar la sección de comentarios después de enviar el comentario
-                fetchComments();
-            })
-            .catch(error => {
-                console.error('Error al enviar el comentario:', error);
-            });
-        } else {
-            alert('Por favor, introduce un comentario válido.');
-        }
-    }
-
-    function fetchComments() {
-        // Esta función podría usarse para cargar y mostrar los comentarios desde el servidor
-        // Puedes implementarla según tus necesidades
-    }
-
-    // Llamada inicial para cargar los comentarios existentes
-    fetchComments();
 });
