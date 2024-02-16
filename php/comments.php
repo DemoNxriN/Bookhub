@@ -4,11 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
     $commentText = trim($_POST["comment"]);
     $commentText = htmlspecialchars($commentText);
 
-    // Obtener el valor del parámetro book de la URL
-    $bookParam = isset($_GET['book']) ? $_GET['book'] : '';
-
-    // Validar que el comentario no esté vacío y que el valor del parámetro sea válido
-    if (!empty($commentText) && is_numeric($bookParam) && $bookParam >= 1 && $bookParam <= 20) {
+    // Validar que el comentario no esté vacío
+    if (!empty($commentText)) {
         // Conexión a la base de datos (ajusta los detalles según tu configuración)
         $servername = "bbdd.bookhub.cat";
         $username = "ddb219390";
@@ -30,8 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
         $stmt->close();
         $conn->close();
 
-        // Redirigir al archivo HTML después de insertar el comentario
-        header("Location: book$bookParam.html");
+        // Redirigir para evitar la reenvío del formulario al recargar la página
+        header("Location: ".$_SERVER['PHP_SELF']);
         exit();
     } else {
         echo "Por favor, introduce un comentario válido.";
