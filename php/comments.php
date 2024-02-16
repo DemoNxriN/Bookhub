@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
         $stmt->close();
         $conn->close();
 
-        // Redirigir para evitar la reenvío del formulario al recargar la página
+        // Redirigir el reenvío del formulario al recargar la página
         header("Location: ".$_SERVER['PHP_SELF']);
         exit();
     } else {
