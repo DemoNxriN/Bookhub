@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
 
     // Validar que el comentario no esté vacío
     if (!empty($commentText)) {
-        // Conexión a la base de datos (ajusta los detalles según tu configuración)
+        // Conexión a la base de datos
         $servername = "bbdd.bookhub.cat";
         $username = "ddb219390";
         $password = "lTDYST8S9KlIwU";
