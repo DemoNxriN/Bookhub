@@ -24,12 +24,31 @@
             <div class="card-content">
                 <img class="card-img" src="../img/el arte de la guerra.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>Alicia a traves del espejo</h2>
+                    <h2>El arte de la guerra</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <div>Descargar</div>
-                </div>
+                    <a download="El arte de la guerra" href="../src/03_EL ARTE DE LA GUERRA.pdf">Descargar</a>                         </div>
             </div>
         </div>
+
+        <div class="comment-section">
+            <h2>Comentarios</h2>
+            <form action="../php/comments.php" method="post">
+                <label for="comment">Deja tu comentario:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Publicar comentario">
+            </form>
+        </div>
+
+        <div class="commentsContainer" id="commentsContainer_book1">
+            <div class="comment">
+                <!-- Contenido del primer comentario -->
+            </div>
+            <div class="comment">
+                <!-- Contenido del segundo comentario -->
+            </div>
+        </div>
+        
         <footer>
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
         </footer>

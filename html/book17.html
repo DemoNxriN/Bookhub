@@ -25,10 +25,31 @@
                 <div class="card-text">
                     <h2>El angel de la sombra</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <div>Descargar</div>
+                    <a download="El angel de la sombra" href="../src/17_EL ANGEL DE LA SOMBRA.pdf">Descargar</a>
                 </div>
             </div>
         </div>
+
+           
+        <div class="comment-section">
+            <h2>Comentarios</h2>
+            <form action="../php/comments.php" method="post">
+                <label for="comment">Deja tu comentario:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Publicar comentario">
+            </form>
+        </div>
+
+        <div class="commentsContainer" id="commentsContainer_book1">
+            <div class="comment">
+                <!-- Contenido del primer comentario -->
+            </div>
+            <div class="comment">
+                <!-- Contenido del segundo comentario -->
+            </div>
+        </div>
+        
         <footer>
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
         </footer>
