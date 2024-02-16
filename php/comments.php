@@ -23,7 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
         $stmt->bind_param("s", $commentText);
         $stmt->execute();
 
-        // Cerrar la conexión a la base de datos
         $stmt->close();
         $conn->close();
 
