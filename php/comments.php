@@ -1,11 +1,14 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"]) && isset($_GET["book"])) {
     // Obtener y limpiar el comentario del formulario
     $commentText = trim($_POST["comment"]);
     $commentText = htmlspecialchars($commentText);
 
-    // Validar que el comentario no esté vacío
-    if (!empty($commentText)) {
+    // Obtener el valor del parámetro book de la URL
+    $bookParam = isset($_GET['book']) ? $_GET['book'] : '';
+
+    // Validar que el comentario no esté vacío y que el valor del parámetro sea válido
+    if (!empty($commentText) && is_numeric($bookParam) && $bookParam >= 1 && $bookParam <= 20) {
         // Conexión a la base de datos (ajusta los detalles según tu configuración)
         $servername = "bbdd.bookhub.cat";
         $username = "ddb219390";
@@ -19,58 +22,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
         }
 
         // Preparar la consulta SQL de manera segura para insertar el comentario
-        $stmt = $conn->prepare("INSERT INTO comentarios (texto) VALUES (?)");
-        $stmt->bind_param("s", $commentText);
+        $stmt = $conn->prepare("INSERT INTO comentarios (texto, libro_id) VALUES (?, ?)");
+        $stmt->bind_param("si", $commentText, $bookParam);
         $stmt->execute();
 
         // Cerrar la conexión a la base de datos
         $stmt->close();
         $conn->close();
 
-        // Redirigir para evitar la reenvío del formulario al recargar la página
-        header("Location: ".$_SERVER['PHP_SELF']);
+        // Redirigir al archivo HTML después de insertar el comentario
+        header("Location: book$bookParam.html");
         exit();
     } else {
         echo "Por favor, introduce un comentario válido.";
     }
 }
-
-// Establecer la conexión a la base de datos (ajusta los detalles según tu configuración)
-$servername = "bbdd.bookhub.cat";
-$username = "ddb219390";
-$password = "lTDYST8S9KlIwU";
-$dbname = "ddb219390";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
-
-// Consulta SQL para seleccionar todos los comentarios
-$sql = "SELECT * FROM `comentarios`";
-$result = $conn->query($sql);
-
-// Verificar si hay resultados
-if ($result->num_rows > 0) {
-    // Crear un array para almacenar los comentarios
-    $commentsArray = array();
-
-    // Iterar sobre los resultados y agregar cada comentario al array
-    while ($row = $result->fetch_assoc()) {
-        $commentsArray[] = array(
-            'texto' => $row['texto'],
-            'fecha' => $row['fecha']
-        );
-    }
-
-    // Imprimir el array en formato JSON
-    echo json_encode($commentsArray);
-} else {
-    // Si no hay comentarios, imprimir un mensaje
-    echo json_encode(array('message' => 'No hay comentarios aún.'));
-}
-
-// Cerrar la conexión a la base de datos
-$conn->close();
 ?>
