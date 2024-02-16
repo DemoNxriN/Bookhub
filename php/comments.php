@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
             die("Conexión fallida: " . $conn->connect_error);
         }
 
-        // Preparar la consulta SQL de manera segura para insertar el comentario
+        // Preparar la consulta SQL
         $stmt = $conn->prepare("INSERT INTO comentarios (texto) VALUES (?)");
         $stmt->bind_param("s", $commentText);
         $stmt->execute();
