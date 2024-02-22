@@ -111,6 +111,25 @@ footer {
     article h2 {
         font-size: 1.2em;
     }
+
+    .card-content {
+        flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
+        align-items: center;
+    }
+
+    .card-img {
+        border-radius: 10px;
+        max-width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    a.button-books {
+        width: 100%; /* Ajusta el ancho de los botones para pantallas más pequeñas */
+    }
 }
 
 /* CSS Books */
@@ -122,7 +141,10 @@ div.card-container {
     height: auto;
     margin: 50px auto;
     overflow: hidden;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-content {
@@ -130,39 +152,43 @@ div.card-container {
     overflow: hidden;
     background-color: #f0f0f0; 
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 
 .card-img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 10px; 
-    max-width: 150px;
+    border-radius: 10px;
+    max-width: auto;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .card-text {
     overflow: hidden;
+    flex-grow: 1;
 }
 
 a.button-books {
-    width: 45%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    border:none;
+    align-items: center;
+    border: none;
     border-radius: 4px;
     background-color: #004080;
     height: 30px;
     text-align: center;
-    align-items: center;
     text-decoration: none;
     color: white;
-    margin: auto;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
-/* Estilos de comentarios */
 
 .comment-section {
     margin-top: 30px;
@@ -211,9 +237,10 @@ a.button-books {
 }
 
 .commentsContainer {
-    margin-top: 20px;
+    margin: 20px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
+    width: auto;
 }
