@@ -197,6 +197,7 @@ div.card-container {
 .card-text {
     overflow: hidden;
     flex-grow: 1;
+    text-align: justify;
 }
 
 a.button-books {
