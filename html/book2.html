@@ -26,50 +26,56 @@
                 <div class="card-text">
                     <h2>Alicia a traves del espejo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="Alicia a traves del espejo" href="../src/02_ALICIA A TRAVES DEL ESPEJO.pdf">Descargar</a>                </div>
-            </div>
-        </div>
-
-        <div class="comment-section">
-            <h2>Comentarios</h2>
-            <form action="../php/comments.php" method="post">
-                <label for="comment">Deja tu comentario:</label>
-                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-                <br>
-                <input type="submit" value="Publicar comentario">
-            </form>
-        </div>
-
-        <div class="commentsContainer" id="commentsContainer_book1">
-            <div class="comment">
-                <!-- Contenido del primer comentario -->
-            </div>
-            <div class="comment">
-                <!-- Contenido del segundo comentario -->
+                    <a  class="button-books" download="Belleza Nega" href="../src/01_BELLEZA NEGRA.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
+                </div>
             </div>
         </div>
         
-        <footer>
-            <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
-        </footer>
-    </body>        
+    <div class="comment-section">
+        <h2>Comentarios</h2>
+        <form action="../php/comments.php" method="post">
+            <label for="comment">Deja tu comentario:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Publicar comentario">
+        </form>
+    </div>
+
+    <div class="commentsContainer" id="commentsContainer_book1">
+        <div class="comment">
+            <h3>Nombre del Comentarista</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aut nobis earum inventore, dolore sit distinctio numquam possimus quas. Quia architecto dignissimos expedita, reiciendis totam minima eaque quo itaque ut!.</p>
+        </div>
+        <div class="comment">
+            <h3>Nombre del Comentarista</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium repellat cupiditate ipsam excepturi deserunt, omnis aliquid illo inventore iste quaerat sequi quas voluptates odit fuga veniam maxime ipsum nesciunt..</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
+    </footer>
+</body>
 
 </html>
 
 <script>
 
-    function redirectToIndex() {
-        window.location.href = "../index.html";
-    }
+function redirectToIndex() {
+    window.location.href = "../index.html";
+}
 
-    function redirectToLogin() {
-        window.location.href = "./login.html";
-    }
-    function redirectToLogin() {
-        window.location.href = "./register.html";
-    }
-    function redirectToLogin() {
-        window.location.href = "./contact.html";
-    }
-    
+function redirectToLogin() {
+    window.location.href = "./login.html";
+}
+
+function redirectToRegister() {
+    window.location.href = "./register.html";
+}
+
+function redirectToContact() {
+    window.location.href = "./contact.html";
+}
+
 </script>
