@@ -25,6 +25,10 @@ header, nav {
     padding: 10px;
 }
 
+img.logo {
+    height: 100px;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -47,11 +51,12 @@ nav button.button-nav {
     padding: 0 1em;
     border: none;
     border-radius: 4px;
-    height: 30px;
+    height: 40px;
     width: 23%;
     background-color: #3a6b8a;
     margin: auto;
     bottom: 0;
+    font-size: 1em;
 }
 
 button.button-nav:hover {
@@ -118,6 +123,11 @@ footer {
 /* ESTILOS DE LIBROS */
 
 @media (max-width: 600px) {
+    
+    nav button.button-nav {
+    font-size: 0.9em;
+    }
+
     article {
         margin: 10px;
         padding: 10px;
