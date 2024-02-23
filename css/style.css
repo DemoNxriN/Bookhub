@@ -128,7 +128,7 @@ footer {
     }
 
     .card-content {
-        flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
+        flex-direction: column;
         align-items: center;
     }
 
@@ -143,7 +143,7 @@ footer {
     }
 
     a.button-books {
-        width: 100%; /* Ajusta el ancho de los botones para pantallas más pequeñas */
+        width: 100%;
     }
 }
 
