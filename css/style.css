@@ -124,6 +124,10 @@ footer {
 
 @media (max-width: 600px) {
     
+    img.logo {
+        height: 60px;
+    }
+
     nav button.button-nav {
     font-size: 0.9em;
     }
