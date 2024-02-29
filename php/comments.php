@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comment"])) {
         }
 
         // Preparar la consulta SQL
-        $stmt = $conn->prepare("INSERT INTO comentarios (texto) VALUES (?)");
+        $stmt = $conn->prepare("INSERT INTO comentario (texto) VALUES (?)");
         $stmt->bind_param("s", $commentText);
         $stmt->execute();
 

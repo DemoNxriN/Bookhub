@@ -68,6 +68,28 @@
 
 </html>
 
+<?php
+    require_once('connecta_db_persistent.php');
+    try{
+        $sql = 'SELECT Usuario FROM `login` WHERE Opcion = :rol';
+        $preparada = $db->prepare($sql);
+        $preparada->execute(array(':rol' => '1111111111111111'));
+
+        if($preparada){
+            echo '<p>' . $preparada->rowCount() . '</p>';
+            echo '<table>';
+            foreach ($preparada as $fila) {
+                echo '<tr>';
+                echo '<td>' . $fila['Usuario'] . '</td>';
+                echo '</tr>';
+            }
+            echo '</table>';
+        }
+    }catch(PDOException $e){
+        echo 'Error amb la BDs: ' . $e->getMessage();
+    }
+    
+
 <script>
 
     function redirectToIndex() {
