@@ -301,7 +301,7 @@ a.button-books:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
-    width: 100%;
+    width: 40%;
     margin: 20px;
 }
 
@@ -313,12 +313,12 @@ a.button-books:hover {
 }
 
 .form-group {
-    width: 48%; /* Ajusta el ancho de las columnas según tus necesidades */
+    width: 100%; /* Ajusta el ancho de las columnas según tus necesidades */
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
@@ -327,6 +327,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="dat
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin: 10px;
 }
 
 .form-submit {
@@ -338,6 +339,9 @@ input[type="text"], input[type="email"], input[type="password"], input[type="dat
     color: white;
     cursor: pointer;
     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .form-submit:hover {
