@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 20%;
+    background-color: #f0f0f0;
+    /* Estilos adicionales según tus preferencias */
+}
+
+nav {
+    height: 15%;
+    background-color: #c0c0c0;
+    /* Estilos adicionales según tus preferencias */
+}
+
+main {
+    flex-grow: 1;
+    /* El contenido principal ocupará el espacio restante */
+    display: flex;
+    /* Columnas horizontales */
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Estilos adicionales según tus preferencias */
+}
+
+footer {
+    height: 10%;
+    background-color: #a0a0a0;
+    /* Estilos adicionales según tus preferencias */
+}
