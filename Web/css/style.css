@@ -16,7 +16,26 @@ header {
 nav {
     height: 15%;
     background-color: #c0c0c0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
     /* Estilos adicionales según tus preferencias */
+}
+
+.button-nav {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #3a6b8a;
+    color: #fff; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición para el hover */
+    width: 22%;
+}
+
+.button-nav:hover {
+    background-color: #1e3d50; /* Color de fondo al pasar el ratón */
 }
 
 main {
