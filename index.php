@@ -150,14 +150,14 @@
             
             <article>
                 <h2>El buen soldado</h2>
-                <img src="img/el buen soldado.jpg" alt="Portada Libro 2">
+                <img src="img/el buen soldado.jpg" alt="Portada Libro 19">
                 <h4>Ford Madox</h4>
                 <button class="main-page" onclick="redirectToDetails('./html/book19.php')">Ver más</button>
             </article>  
             
             <article>
                 <h2>El cuervo</h2>
-                <img src="img/el cuervo.jpg" alt="Portada Libro 2">
+                <img src="img/el cuervo.jpg" alt="Portada Libro 20">
                 <h4>Edgar Alan Poe</h4>
                 <button class="main-page" onclick="redirectToDetails('./html/book20.php')">Ver más</button>
             </article>            
