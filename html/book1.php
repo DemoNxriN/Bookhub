@@ -72,7 +72,7 @@
 <?php
     require_once('/php/connection.php');
     try{
-        $sql = 'SELECT co FROM `login` WHERE Opcion = :rol';
+        $sql = 'SELECT comentarios FROM `login` WHERE Opcion = :rol';
         $preparada = $db->prepare($sql);
         $preparada->execute(array(':rol' => '1111111111111111'));
 
