@@ -69,7 +69,7 @@
 </html>
 
 <?php
-    require_once('connecta_db_persistent.php');
+    require_once('/php/connectiondb.php');
     try{
         $sql = 'SELECT Usuario FROM `login` WHERE Opcion = :rol';
         $preparada = $db->prepare($sql);
@@ -88,7 +88,7 @@
     }catch(PDOException $e){
         echo 'Error amb la BDs: ' . $e->getMessage();
     }
-    
+?>  
 
 <script>
 
@@ -107,5 +107,5 @@
     function redirectToContact() {
         window.location.href = "./contact.html";
     }
-    
+
 </script>
