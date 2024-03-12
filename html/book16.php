@@ -14,10 +14,10 @@
         </header>
     
         <nav>
-            <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
-            <button class="button-nav" onclick="redirectToLogin()">Inicio de Sesión</button>
-            <button class="button-nav" onclick="redirectToRegister()">Registro</button>
+            <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
+            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
         </nav>
         
         <div class="card-container">
