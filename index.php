@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
         <link rel="stylesheet" href="./css/style.css">
-        <script src="./js/redirections.js" ></script>
+        <script src="./js/buttons.js"></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -170,5 +170,23 @@
 </html>
 
 <script>
+    function redirectToIndex() {
+    window.location.href = "../index.php";
+}
 
+function redirectToLogin() {
+    window.location.href = "./html/login.php";
+}
+
+function redirectToRegister() {
+    window.location.href = "./html/register.php";
+}
+
+function redirectToContact() {
+    window.location.href = "./html/contact.php";
+}
+
+function redirectToDetails(page) {
+    window.location.href = page;
+}
 </script>
