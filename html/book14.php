@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -18,18 +19,18 @@
             <button class="button-nav" onclick="redirectToRegister()">Registro</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
         </nav>
-
+        
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/el libro de la selva.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/Cuentos de la selva.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>El libro de la selva</h2>
+                    <h2>Cuentos de la selva</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="El libro de la selva" href="../src/11_EL LIBRO DE LA SELVA.pdf">Descargar</a>
+                    <a download="Cuentos de la selvad" href="../src/14_CUENTOS DE LA SELVA.pdf">Descargar</a>
                 </div>
             </div>
         </div>
-
+        
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">
@@ -59,21 +60,5 @@
     </html>
     
     <script>
-    
-    function redirectToIndex() {
-        window.location.href = "../index.html";
-    }
-    
-    function redirectToLogin() {
-        window.location.href = "./login.html";
-    }
-    
-    function redirectToRegister() {
-        window.location.href = "./register.html";
-    }
-    
-    function redirectToContact() {
-        window.location.href = "./contact.html";
-    }
-    
+
     </script>

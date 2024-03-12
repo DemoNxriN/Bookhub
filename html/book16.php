@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -21,15 +22,15 @@
         
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/El buen soldado.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/Diario de un seductor.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>El buen soldado</h2>
+                    <h2>Diario de un seductor</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
+                    <a download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
                 </div>
             </div>
         </div>
-  
+     
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">
@@ -59,21 +60,5 @@
     </html>
     
     <script>
-    
-    function redirectToIndex() {
-        window.location.href = "../index.html";
-    }
-    
-    function redirectToLogin() {
-        window.location.href = "./login.html";
-    }
-    
-    function redirectToRegister() {
-        window.location.href = "./register.html";
-    }
-    
-    function redirectToContact() {
-        window.location.href = "./contact.html";
-    }
-    
+
     </script>

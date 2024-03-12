@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -59,21 +60,5 @@
     </html>
     
     <script>
-    
-    function redirectToIndex() {
-        window.location.href = "../index.html";
-    }
-    
-    function redirectToLogin() {
-        window.location.href = "./login.html";
-    }
-    
-    function redirectToRegister() {
-        window.location.href = "./register.html";
-    }
-    
-    function redirectToContact() {
-        window.location.href = "./contact.html";
-    }
-    
+
     </script>

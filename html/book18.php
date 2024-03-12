@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
     <body>
@@ -13,19 +14,19 @@
         </header>
     
         <nav>
-           <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
+            <button class="button-nav" onclick="redirectToIndex()">Inicio</button >
             <button class="button-nav" onclick="redirectToLogin()">Inicio de Sesión</button>
             <button class="button-nav" onclick="redirectToRegister()">Registro</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
         </nav>
-
+        
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/Bodas de sangre.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/El asno de oro.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>Bodas de sangre</h2>
+                    <h2>El asno de oro</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
+                    <a download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
                 </div>
             </div>
         </div>
@@ -59,21 +60,5 @@
     </html>
     
     <script>
-    
-    function redirectToIndex() {
-        window.location.href = "../index.html";
-    }
-    
-    function redirectToLogin() {
-        window.location.href = "./login.html";
-    }
-    
-    function redirectToRegister() {
-        window.location.href = "./register.html";
-    }
-    
-    function redirectToContact() {
-        window.location.href = "./contact.html";
-    }
-    
+
     </script>
