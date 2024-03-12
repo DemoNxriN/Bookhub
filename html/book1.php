@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <footer>
+        <footer class="ifoot">
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
         </footer>
     </body>

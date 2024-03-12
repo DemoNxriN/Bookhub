@@ -21,7 +21,7 @@
             <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
         </nav>
 
-        <footer>
+        <footer class="logfoot">
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>
         </footer>
     </body>
