@@ -26,27 +26,6 @@
                 <form action="../php/procesar_registro.php.php" method="post">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="nombreUsuario">Nombre de Usuario:</label>
-                            <input type="text" id="nombreUsuario" name="nombreUsuario" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-                            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
-
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="contrasena">Contraseña:</label>
-                            <input type="password" id="contrasena" name="contrasena" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="repitaContrasena">Repita la Contraseña:</label>
-                            <input type="password" id="repitaContrasena" name="repitaContrasena" required>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
                             <label for="nombre">Nombre:</label>
                             <input type="text" id="nombre" name="nombre" required>
                         </div>
@@ -61,6 +40,27 @@
                             <input type="email" id="email" name="email" required>
                         </div>
                     </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombreUsuario">Nombre de Usuario:</label>
+                            <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contrasena">Contraseña:</label>
+                            <input type="password" id="contrasena" name="contrasena" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="repitaContrasena">Repita la Contraseña:</label>
+                            <input type="password" id="repitaContrasena" name="repitaContrasena" required>
+                        </div>
+                    </div>
+                   
                     <button type="submit" class="form-submit">Registrarse</button>
                 </form>
             </div>

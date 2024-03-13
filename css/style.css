@@ -314,6 +314,7 @@ a.button-books:hover {
     max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
     width: 40%;
     margin: 20px;
+    align-content: center;
     
 }
 
@@ -322,10 +323,12 @@ a.button-books:hover {
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
+   
 }
 
 .form-group {
     width: 100%; /* Ajusta el ancho de las columnas según tus necesidades */
+    
 }
 
 label {
@@ -334,7 +337,7 @@ label {
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
