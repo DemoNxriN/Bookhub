@@ -16,21 +16,21 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button> 
         </nav>
         
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/El buen soldado.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/El cuervo.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>El buen soldado</h2>
+                    <h2>El cuervo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
+                    <a download="El cuervo" href="../src/20_EL CUERVO.pdf">Descargar</a>
                 </div>
             </div>
         </div>
-  
+
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">

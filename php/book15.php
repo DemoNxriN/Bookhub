@@ -16,21 +16,21 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button>  
         </nav>
-
+        
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/Bodas de sangre.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/De profundis.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>Bodas de sangre</h2>
+                    <h2>De profundis</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
+                    <a download="De profundis" href="../src/15_DE PROFUNDIS.pdf">Descargar</a>
                 </div>
             </div>
         </div>
-
+         
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">

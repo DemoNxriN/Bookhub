@@ -17,8 +17,8 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button>  
         </nav>
 
         <div class="card-container">

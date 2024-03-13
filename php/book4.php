@@ -16,21 +16,20 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button> 
         </nav>
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/el conde de montecristo.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/el arte de la guerra.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>El conde de Montecristo</h2>
+                    <h2>De la tierra a la luna</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="El conde de Montecristo" href="../src/07_EL CONDE DE MONTECRISTO.pdf">Descargar</a>
+                    <a download="De la tierra a la luna" href="../src/04_DE LA TIERRA A LA LUNA.pdf">Descargar</a>                         
                 </div>
             </div>
         </div>
 
-        
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">
@@ -60,5 +59,5 @@
     </html>
     
     <script>
-
+    
     </script>

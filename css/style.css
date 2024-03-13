@@ -299,6 +299,7 @@ a.button-books:hover {
     align-items: center;
     height: 100%;
     width: 100%;
+    
 }
 
 .form-container {
@@ -313,6 +314,7 @@ a.button-books:hover {
     max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
     width: 40%;
     margin: 20px;
+    
 }
 
 .form-row {

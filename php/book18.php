@@ -16,17 +16,17 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button> 
         </nav>
-
+        
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/cuento de navidad.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/El asno de oro.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>Cuento de navidad</h2>
+                    <h2>El asno de oro</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="Cuento de navidad" href="../src/13_CUENTO DE NAVIDAD.pdf">Descargar</a>
+                    <a download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
                 </div>
             </div>
         </div>

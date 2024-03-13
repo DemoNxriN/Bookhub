@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../css/style.css">
         <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
@@ -17,21 +16,21 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="login()">Inicio de Sesión</button>
-            <button class="button-nav" id="registerButton" onclick="register()">Registro</button>    
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button> 
         </nav>
-
+        
         <div class="card-container">
             <div class="card-content">
-                <img class="card-img" src="../img/el arte de la guerra.jpg" alt="Descripción de la imagen">
+                <img class="card-img" src="../img/Diario de un seductor.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
-                    <h2>El arte de la guerra</h2>
+                    <h2>Diario de un seductor</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a download="El arte de la guerra" href="../src/03_EL ARTE DE LA GUERRA.pdf">Descargar</a>                         
+                    <a download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
                 </div>
             </div>
         </div>
-
+     
         <div class="comment-section">
             <h2>Comentarios</h2>
             <form action="../php/comments.php" method="post">
@@ -61,5 +60,5 @@
     </html>
     
     <script>
-    
+
     </script>
