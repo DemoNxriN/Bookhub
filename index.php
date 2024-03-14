@@ -26,140 +26,140 @@
                 <h2>Belleza Negra</h2>
                 <img src="./img/belleza negra.jpg" alt="Portada Libro 1">
                 <h4>Anna Sewell</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book1.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book1.php')">Ver más</button>
             </article>
     
             <article>
                 <h2>Alicia a través del espejo</h2>
                 <img src="./img/alicia a traves del espejo.jpg" alt="Portada Libro 2">
                 <h4>Lewis Carroll</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book2.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book2.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El arte de la guerra</h2>
                 <img src="./img/el arte de la guerra.jpg" alt="Portada Libro 3">
                 <h4>Sun Tzu</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book3.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book3.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>De la tierra a la luna</h2>
                 <img src="./img/de la tierra a la luna.jpg" alt="Portada Libro 4">
                 <h4>Julio Verne</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book4.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book4.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Drácula</h2>
                 <img src="./img/dracula.jpg" alt="Portada Libro 5">
                 <h4>Bram Stoker</h4>
-                <button class="main-page"  onclick="redirectToDetails('./html/book5.php')">Ver más</button>
+                <button class="main-page"  onclick="redirectToDetails('./php/book5.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El arte de sobrevivir</h2>
                 <img src="./img/el arte de sobrevivir.jpg" alt="Portada Libro 6">
                 <h4>Arthur Schopenhouer</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book6.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book6.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El conde de Montecristo</h2>
                 <img src="./img/el conde de montecristo.jpg" alt="Portada Libro 7">
                 <h4>Alejandro Dumas</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book7.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book7.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Bodas de sangre</h2>
                 <img src="./img/bodas de sangre.jpg" alt="Portada Libro 8">
                 <h4>Federico García Lorca</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book8.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book8.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Anna Karenina</h2>
                 <img src="./img/anna karenina.jpg" alt="Portada Libro 9">
                 <h4>Lev Tolsti</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book9.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book9.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El diario de Ana Frank</h2>
                 <img src="./img/el diario de ana frank.jpg" alt="Portada Libro 10">
                 <h4>Ana Frank</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book10.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book10.php')">Ver más</button>
             </article>
 
             <article>
                 <h2>El libro de la selva</h2>
                 <img src="./img/el libro de la selva.jpg" alt="Portada Libro 11">
                 <h4>Rudyard Kipling</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book11.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book11.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Ante la bandera</h2>
                 <img src="./img/ante la bandera.jpg" alt="Portada Libro 12">
                 <h4>Julio Verne</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book12.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book12.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Cuento de navidad</h2>
                 <img src="img/cuento de navidad.jpg" alt="Portada Libro 13">
                 <h4>Charles Dickens</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book13.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book13.php')">Ver más</button>
             </article>  
             
             <article>
                 <h2>Cuentos de la selva</h2>
                 <img src="img/cuentos de la selva.jpg" alt="Portada Libro 14">
                 <h4>Horacio Quiroga</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book14.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book14.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>De profundis</h2>
                 <img src="img/de profundis.jpg" alt="Portada Libro 15">
                 <h4>Oscar Wilde</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book15.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book15.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>Diario de un seductor</h2>
                 <img src="img/diario de un seductor.jpg" alt="Portada Libro 16">
                 <h4>Sören Kierkegaard</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book16.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book16.php')">Ver más</button>
             </article>  
             
             <article>
                 <h2>El angel de la sombra</h2>
                 <img src="img/el angel de la sombra.jpg" alt="Portada Libro 17">
                 <h4>Leopoldo Lugones</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book17.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book17.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El asno de oro</h2>
                 <img src="img/el asno de oro.jpg" alt="Portada Libro 18">
                 <h4>Lucio Apuleyo</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book18.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book18.php')">Ver más</button>
             </article>
             
             <article>
                 <h2>El buen soldado</h2>
                 <img src="img/el buen soldado.jpg" alt="Portada Libro 19">
                 <h4>Ford Madox</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book19.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book19.php')">Ver más</button>
             </article>  
             
             <article>
                 <h2>El cuervo</h2>
                 <img src="img/el cuervo.jpg" alt="Portada Libro 20">
                 <h4>Edgar Alan Poe</h4>
-                <button class="main-page" onclick="redirectToDetails('./html/book20.php')">Ver más</button>
+                <button class="main-page" onclick="redirectToDetails('./php/book20.php')">Ver más</button>
             </article>            
     
         </section>
