@@ -31,7 +31,6 @@
                     y pasa por varios amos hasta recuperar por fin su condición humana.Esto sucede gracias a la intervención de Isis, 
                     ya que en una procesión que se realizaba en honor a ésta, Lucio (asno) comió pétalos de rosas lo que le devolvió su 
                     condición humana. Agradecido Lucio se pone al servicio de la diosa Isis y se hace iniciar en sus sagrados misterios.</p>
-                    <a download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
                     <a  class="button-books" download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

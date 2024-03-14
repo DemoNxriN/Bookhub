@@ -32,7 +32,6 @@
                     la tierra del autor, que aún perduran. Todo ello a partir de objetos simbólicos que anuncian la tragedia. 
                     Es constante en la obra lorquiana la obsesión por el puñal, el cuchillo y la navaja, que en Bodas de sangre 
                     atraen la fascinación y, a la vez, presagian la muerte. Además de los elementos naturales que también se desatacan como la luna.</p>
-                    <a download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
                     <a  class="button-books" download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

@@ -27,7 +27,6 @@
                     <p>Finalizada la Guerra de Secesión de los Estados Unidos los ociosos fabricantes de cañones agrupados en el Gun Club, 
                     conciben la idea de fabricar un super cañón, el Columbiad, para enviar un proyectil tripulado a la luna. Luego de vencer 
                     innumerables inconvenientes técnicos, consiguen su objetivo.</p>
-                    <a download="De la tierra a la luna" href="../src/04_DE LA TIERRA A LA LUNA.pdf">Descargar</a>
                     <a  class="button-books" download="De la tierra a la luna" href="../src/04_DE LA TIERRA A LA LUNA.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>                       
                 </div>

@@ -29,7 +29,6 @@
                     acusado de traición por sus amigos, es arrestado el mismo día de su boda y finalmente encarcelado. 
                     Al cabo de  unos años escapa de prisión, se convierte en un hombre rico y adopta el título de conde 
                     de Montecristo. Esta obra está considerada una de las diez mejores novelas de aventuras de todos los tiempos.</p>
-                    <a download="El conde de Montecristo" href="../src/07_EL CONDE DE MONTECRISTO.pdf">Descargar</a>
                     <a  class="button-books" download="El conde de Montecristo" href="../src/07_EL CONDE DE MONTECRISTO.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

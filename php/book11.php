@@ -34,7 +34,6 @@
                     una curiosa reunión de paquidermos en el corazón de la selva que los expertos cazadores consideraban un mito. Y finalmente, los mismos animales opinarán sobre 
                     el modo en el que se deben enfrentar a los servicios que les imponen los hombres. Sumerjámonos en las profundidades de la selva india con las más nobles emociones 
                     que permanecen intactas en los niños y en nuestros más fieles amigos: los animales..</p>
-                    <a download="El libro de la selva" href="../src/11_EL LIBRO DE LA SELVA.pdf">Descargar</a>
                     <a  class="button-books" download="El libro de la selva" href="../src/11_EL LIBRO DE LA SELVA.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

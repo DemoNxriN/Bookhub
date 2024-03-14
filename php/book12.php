@@ -29,7 +29,6 @@
                     naciones del mundo. Al pedir un precio demasiado alto, ningún país compra su bomba, y el inventor 
                     cae en la locura y es internado en la "Healthful-House", especie de instituto psiquiátrico. Allí es 
                     espiado por otro ingeniero francés, Simón Hart, quien espera desvelar el secreto del invento.</p>
-                    <a download="Ante la bandera" href="../src/12_ANTE LA BANDERA.pdf">Descargar</a>
                     <a  class="button-books" download="Ante la bandera" href="../src/12_ANTE LA BANDERA.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

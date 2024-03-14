@@ -30,7 +30,6 @@
                     escribió en su diario -al que llamó “Kitty”- un testimonio estremecedor: la supervivencia en una buhardilla de unos almacenes 
                     en Amsterdam de ocho personas escondidas de la invasión y ocupación nazi. En ALIBRATE puedes encontrar todas las reseñas y opiniones 
                     del libro El diario de Ana Frank.</p>
-                    <a download="El diario de Anna Frank" href="../src/10_EL DIARIO DE ANA FRANK.pdf">Descargar</a>
                     <a  class="button-books" download="El diario de Ana Frank" href="../src/10_EL DIARIO DE ANA FRANK.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

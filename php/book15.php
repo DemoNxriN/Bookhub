@@ -29,7 +29,6 @@
                     la parte más viva y más honda no sólo de su clara inteligencia sino también de su compleja personalidad humana. 
                     De Profundis marca el punto culminante de la vida y filosofía personal de su autor y evidencia cómo todas las 
                     experiencias adquirían para él significado artístico. Obra fundamental para entender a Wilde tras su paso por prisión.</p>
-                    <a download="De profundis" href="../src/15_DE PROFUNDIS.pdf">Descargar</a>
                     <a  class="button-books" download="De profundis" href="../src/15_DE PROFUNDIS.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

@@ -31,7 +31,6 @@
                     y el goce sensual vaga por la vida víctima de sus instintos y sin poder ver en lo que le rodea nada más que un medio para 
                     satisfacer sus apetencias. Del mismo autor, en esta colección:" Temor y Temblor" ," El concepto de la angustia" ," In vino 
                     veritas" y" La repetición" .</p>
-                    <a download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
                     <a  class="button-books" download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

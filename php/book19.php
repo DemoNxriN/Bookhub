@@ -29,7 +29,6 @@
                     Mediante la historia de pasión protagonizada por los matrimonios Ashburnham y Dowell, se nos muestran las 
                     interioridades de lo que se dio en llamar la sociedad internacional y los asuntos crueles y oscuros que la 
                     gente bien del período de entreguerras intentaba a toda costa mantener ocultos.</p>
-                    <a download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
                     <a  class="button-books" download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

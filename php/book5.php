@@ -29,7 +29,6 @@
                     un negocio inmobiliario con un misterioso conde que acaba de comprar varias propiedades en Londres. Después de 
                     un viaje preñado de ominosas señales, Harker es recogido en el Paso de Borgo por un siniestro carruaje que le lleva, 
                     acunado por el canto de los lobos, a un castillo en ruinas.</p>
-                    <a download="Drácula" href="../src/05_DRÁCULA.pdf">Descargar</a>
                     <a  class="button-books" download="Drácula" href="../src/05_DRÁCULA.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

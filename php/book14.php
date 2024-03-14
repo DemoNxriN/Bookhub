@@ -30,7 +30,6 @@
                     para instalarse en la selva misionera. Esta, con su violencia natural incontenible, frente al hombre, aliado a veces, 
                     destructor las más, de esa naturaleza salvaje. Quiroga quiso inventar un lenguaje selvático de América, en contraposición 
                     de la tendencia del común de los escritores a imitar las modas literarias de Europa.</p>
-                    <a download="Cuentos de la selvad" href="../src/14_CUENTOS DE LA SELVA.pdf">Descargar</a>
                     <a  class="button-books" download="Cuentos de la selva" href="../src/14_CUENTOS DE LA SELVA.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>

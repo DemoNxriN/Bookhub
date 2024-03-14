@@ -32,7 +32,6 @@
                     y caridades para holgazanes y vagabundos indignos de ayuda. El destino, sin embargo, intentará derretir el hielo que recubre 
                     el corazón del viejo. Será visitado por espíritus dedicados a enseñarle lo bueno de Noche Buena. Embárcate en la más conocida 
                     historia de Navidad, escrita por uno de los más importantes autores Ingleses.</p>
-                    <a download="Cuento de navidad" href="../src/13_CUENTO DE NAVIDAD.pdf">Descargar</a>
                     <a  class="button-books" download="Cuento de navidad" href="../src/13_CUENTO DE NAVIDAD.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>
