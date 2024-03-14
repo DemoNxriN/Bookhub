@@ -25,8 +25,16 @@
                 <img class="card-img" src="../img/cuento de navidad.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Cuento de navidad</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Ebenezer Scrooge era un hombre avaro. Su avaricia y frialdad arrugaron sus facciones, enrojecieron sus ojos 
+                    y tornaron sus labios de color azul. Hasta su forma de caminar fue endurecida por ahorrar energías. Era tal su 
+                    avaricia que ni el mal clima podía quitarle una reacción. Para el Sr. Scrooge, Navidad era una fecha caracterizada 
+                    por la ineficiencia. Detestaba la ineficiencia, el gasto innecesario de dinero en regalos para personas mal agradecidas 
+                    y caridades para holgazanes y vagabundos indignos de ayuda. El destino, sin embargo, intentará derretir el hielo que recubre 
+                    el corazón del viejo. Será visitado por espíritus dedicados a enseñarle lo bueno de Noche Buena. Embárcate en la más conocida 
+                    historia de Navidad, escrita por uno de los más importantes autores Ingleses.</p>
                     <a download="Cuento de navidad" href="../src/13_CUENTO DE NAVIDAD.pdf">Descargar</a>
+                    <a  class="button-books" download="Cuento de navidad" href="../src/13_CUENTO DE NAVIDAD.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

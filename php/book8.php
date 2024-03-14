@@ -25,8 +25,16 @@
                 <img class="card-img" src="../img/Bodas de sangre.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Bodas de sangre</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Producción poética y teatral enmarcado en un paisaje andaluz. Drama sobre la vida y la muerte. 
+                    Pero de un modo arcano y ancestral, en la que figuran mitos, leyenda y paisajes que introducen al 
+                    lector en un mundo de sombrías pasiones que derivan en los celos, la persecución y en el trágico final: 
+                    la muerte. El amor se destaca como la única fuerza que puede vencerla. La obra recoge las costumbres de 
+                    la tierra del autor, que aún perduran. Todo ello a partir de objetos simbólicos que anuncian la tragedia. 
+                    Es constante en la obra lorquiana la obsesión por el puñal, el cuchillo y la navaja, que en Bodas de sangre 
+                    atraen la fascinación y, a la vez, presagian la muerte. Además de los elementos naturales que también se desatacan como la luna.</p>
                     <a download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
+                    <a  class="button-books" download="Bodas de sangre" href="../src/08_BODAS DE SANGRE.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

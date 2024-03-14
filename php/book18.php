@@ -25,8 +25,15 @@
                 <img class="card-img" src="../img/El asno de oro.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El asno de oro</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>En “el asno de oro” un mercader Corinto de nombre Lucio, sufre una metamorfosis. Es transformado 
+                    en asno por Fotis, una criada, fruto de un accidente.Tras esta metamorfosis, el animal a pesar de conservar 
+                    sus facultades humanas carece del don de la palabra. Así sufre una serie de adversidades, cada cual más penosa 
+                    y pasa por varios amos hasta recuperar por fin su condición humana.Esto sucede gracias a la intervención de Isis, 
+                    ya que en una procesión que se realizaba en honor a ésta, Lucio (asno) comió pétalos de rosas lo que le devolvió su 
+                    condición humana. Agradecido Lucio se pone al servicio de la diosa Isis y se hace iniciar en sus sagrados misterios.</p>
                     <a download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
+                    <a  class="button-books" download="El asno de oro" href="../src/18_EL ASNO DE ORO.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

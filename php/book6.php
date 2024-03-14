@@ -24,8 +24,17 @@
                 <img class="card-img" src="../img/el arte de sobrevivir.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El arte de sobrevivir</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Obra editada por Ernst Ziegler.En la obra de Arthur Schopenhauer, pensador misántropo y pesimista 
+                    denostado por sus amargas invectivas, el lector no encontrará cándidos pensamientos con los que acompañar 
+                    plácidamente el paso de los días. Sin embargo, se equivocará si busca en el autor tan solo una amarga visión 
+                    de la vida, severos diagnósticos sobre la época que le tocó vivir o incluso, en último término, una exhortación 
+                    al suicidio. Como muestra la presente selección de textos, a cargo de Ernst Ziegler, lo que brota de su pensamiento 
+                    es la convicción de que debemos comenzar a vivir de nuevo cada día, pues resulta todo un arte permanecer con vida.
+                    «La única forma de existencia es el momento presente, que es también la posesión más segura, aquella que nadie nos 
+                    podrá arrebatar jamás.»Arthur Schopenhauer</p>
                     <a download="El arte de sobrevivir" href="../src/06_EL ARTE DE SOBREVIVIR.pdf">Descargar</a>
+                    <a  class="button-books" download="El arte de sobrevivir" href="../src/06_EL ARTE DE SOBREVIVIR.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

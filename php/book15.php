@@ -25,8 +25,13 @@
                 <img class="card-img" src="../img/De profundis.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>De profundis</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Larga carta que Wilde dirigió desde la cárcel de Reading a su amante lord Alfred Douglas, se revela 
+                    la parte más viva y más honda no sólo de su clara inteligencia sino también de su compleja personalidad humana. 
+                    De Profundis marca el punto culminante de la vida y filosofía personal de su autor y evidencia cómo todas las 
+                    experiencias adquirían para él significado artístico. Obra fundamental para entender a Wilde tras su paso por prisión.</p>
                     <a download="De profundis" href="../src/15_DE PROFUNDIS.pdf">Descargar</a>
+                    <a  class="button-books" download="De profundis" href="../src/15_DE PROFUNDIS.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

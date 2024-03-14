@@ -25,8 +25,13 @@
                 <img class="card-img" src="../img/El buen soldado.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El buen soldado</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Relata dos suicidios, dos vidas arruinadas, una muerte y el descenso a la locura de una joven muchacha. 
+                    Mediante la historia de pasión protagonizada por los matrimonios Ashburnham y Dowell, se nos muestran las 
+                    interioridades de lo que se dio en llamar la sociedad internacional y los asuntos crueles y oscuros que la 
+                    gente bien del período de entreguerras intentaba a toda costa mantener ocultos.</p>
                     <a download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
+                    <a  class="button-books" download="El buen soldado" href="../src/19_EL BUEN SOLDADO.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

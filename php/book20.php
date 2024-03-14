@@ -25,8 +25,12 @@
                 <img class="card-img" src="../img/El cuervo.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El cuervo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Finalizada la Guerra de Secesión de los Estados Unidos los ociosos fabricantes de cañones agrupados en el Gun Club, 
+                    conciben la idea de fabricar un super cañón, el Columbiad, para enviar un proyectil tripulado a la luna. Luego de vencer 
+                    innumerables inconvenientes técnicos, consiguen su objetivo.</p>
                     <a download="El cuervo" href="../src/20_EL CUERVO.pdf">Descargar</a>
+                    <a  class="button-books" download="El Cuervo" href="../src/20_EL CUERVO.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

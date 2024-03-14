@@ -27,7 +27,7 @@
                 <div class="card-text">
                     <h2>Alicia a traves del espejo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
-                    <a  class="button-books" download="Belleza Nega" href="../src/01_BELLEZA NEGRA.pdf">Descargar</a>
+                    <a  class="button-books" download="Alicia a través del espejo" href="../src/02_ALICIA A TRAVES DEL ESPEJO.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>

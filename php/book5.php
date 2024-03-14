@@ -24,8 +24,14 @@
                 <img class="card-img" src="../img/Dracula.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Drácula</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>El inicio de uno de los mitos más populares: Dracula. Presenta el papel de la mujer en la época victoriana, 
+                    la sexualidad, la inmigración, el colonialismo y el folclore. Jonathan Harker viaja a Transilvania para cerrar 
+                    un negocio inmobiliario con un misterioso conde que acaba de comprar varias propiedades en Londres. Después de 
+                    un viaje preñado de ominosas señales, Harker es recogido en el Paso de Borgo por un siniestro carruaje que le lleva, 
+                    acunado por el canto de los lobos, a un castillo en ruinas.</p>
                     <a download="Drácula" href="../src/05_DRÁCULA.pdf">Descargar</a>
+                    <a  class="button-books" download="Drácula" href="../src/05_DRÁCULA.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

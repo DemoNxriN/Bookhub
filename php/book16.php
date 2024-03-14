@@ -25,8 +25,15 @@
                 <img class="card-img" src="../img/Diario de un seductor.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Diario de un seductor</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Narra la relación entre Juan, el seductor engaña y la manipula, y la ingenua Cordelia. Sin embargo, 
+                    más allá de la trama literaria, abundar en la psicología del seductor no es sino un bello recurso que el filósofo 
+                    danés utiliza para reflexionar sobre el hombre estético, a saber: el hombre que atrapado por la fuerza de la inmediatez 
+                    y el goce sensual vaga por la vida víctima de sus instintos y sin poder ver en lo que le rodea nada más que un medio para 
+                    satisfacer sus apetencias. Del mismo autor, en esta colección:" Temor y Temblor" ," El concepto de la angustia" ," In vino 
+                    veritas" y" La repetición" .</p>
                     <a download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
+                    <a  class="button-books" download="Diario de un seductor" href="../src/16_DIARIO DE UN SEDUCTOR.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

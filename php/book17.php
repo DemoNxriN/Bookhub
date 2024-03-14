@@ -25,8 +25,11 @@
                 <img class="card-img" src="../img/El angel de la sombra.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El angel de la sombra</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen 
+                    incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. </p>
                     <a download="El angel de la sombra" href="../src/17_EL ANGEL DE LA SOMBRA.pdf">Descargar</a>
+                    <a  class="button-books" download="El angel de la sombra" href="../src/17_EL ANGEL DE LA SOMBRA.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

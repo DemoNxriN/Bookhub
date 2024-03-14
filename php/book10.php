@@ -25,8 +25,14 @@
                 <img class="card-img" src="../img/el diario de ana frank.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>El diario de Anna Frank</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>El diario de Ana Frank, de 1947, narra el horror de la persecución nazi en primera persona. Constituye un libro 
+                    único en su género. Entre el 12 de junio de 1942 hasta el 1° de agosto de 1944 una niña de trece años llamada Ana Frank 
+                    escribió en su diario -al que llamó “Kitty”- un testimonio estremecedor: la supervivencia en una buhardilla de unos almacenes 
+                    en Amsterdam de ocho personas escondidas de la invasión y ocupación nazi. En ALIBRATE puedes encontrar todas las reseñas y opiniones 
+                    del libro El diario de Ana Frank.</p>
                     <a download="El diario de Anna Frank" href="../src/10_EL DIARIO DE ANA FRANK.pdf">Descargar</a>
+                    <a  class="button-books" download="El diario de Ana Frank" href="../src/10_EL DIARIO DE ANA FRANK.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

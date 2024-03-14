@@ -25,8 +25,12 @@
                 <img class="card-img" src="../img/Anna karenina.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Anna Karenina</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Su argumento se centra en la vida de Ana Karenina, una mujer casada con un alto funcionario que 
+                    se enamora de un joven militar y decide dejarlo todo por él, desafiando así las férreas convenciones 
+                    sociales de la época. ... Finalmente, termina con su vida víctima de una sociedad que la condena.</p>
                     <a download="Anna Karenina" href="../src/09_ANA KARENINA.pdf">Descargar</a>
+                    <a  class="button-books" download="Anna Karenina" href="../src/09_ANA KARENINA.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>

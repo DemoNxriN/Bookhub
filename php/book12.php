@@ -25,8 +25,13 @@
                 <img class="card-img" src="../img/Ante la bandera.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Ante la bandera</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>El ingeniero francés Tomás Roch inventa un arma de destrucción masiva e intenta venderla a las 
+                    naciones del mundo. Al pedir un precio demasiado alto, ningún país compra su bomba, y el inventor 
+                    cae en la locura y es internado en la "Healthful-House", especie de instituto psiquiátrico. Allí es 
+                    espiado por otro ingeniero francés, Simón Hart, quien espera desvelar el secreto del invento.</p>
                     <a download="Ante la bandera" href="../src/12_ANTE LA BANDERA.pdf">Descargar</a>
+                    <a  class="button-books" download="Ante la bandera" href="../src/12_ANTE LA BANDERA.pdf">Descargar</a>
+                    <a  class="button-books" href="#">Comprar</a>
                 </div>
             </div>
         </div>
