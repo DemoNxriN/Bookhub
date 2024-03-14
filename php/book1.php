@@ -17,7 +17,7 @@
         <nav>
             <button class="button-nav" onclick="redirectToIndex()">Inicio</button>
             <button class="button-nav" onclick="redirectToContact()">Contacto</button>
-            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Inicio de Sesión</button>
+            <button class="button-nav" id="loginButton" onclick="redirectToLogin()">Iniciar Sesión</button>
             <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button>    
         </nav>  
         <div class="content">        
@@ -32,8 +32,7 @@
                              caracteres, costumbres, crueldades e incluso idearios políticos de las gentes más 
                              diversas.  Escrito desde el profundo respeto a los animales, el relato transmite 
                              sufrimiento, pero también alegría, comprensión y amor. Una sucesión de emociones 
-                             que lo han convertido en un clásico de la literatura… no solo juvenil.
-                        </p>
+                             que lo han convertido en un clásico de la literatura… no solo juvenil.</p>
                         <a  class="button-books" download="Belleza Nega" href="../src/01_BELLEZA NEGRA.pdf">Descargar</a>
                         <a  class="button-books" href="#">Comprar</a>
                     </div>
