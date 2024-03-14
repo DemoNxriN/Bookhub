@@ -26,7 +26,9 @@
                 <img class="card-img" src="../img/alicia a traves del espejo.jpg" alt="Descripción de la imagen">
                 <div class="card-text">
                     <h2>Alicia a traves del espejo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet autem, sunt praesentium deserunt deleniti consectetur, nostrum magnam officiis eos soluta, inventore consequuntur necessitatibus? Commodi iste eius eveniet nulla itaque sunt..</p>
+                    <p>Segunda parte de Alicia en el pais de las maravillas. En esta ocasión Alicia participa en una loca partida de ajedrez en la que intentará pasar de peón a reina. 
+                    Algunos de los personajes nos recordarán a el Sombrerero Loco, La liebre de marzo..., pero esta es otra historia donde el espejo actua como un personaje más reflejando 
+                    en él las cosas que van ocurriendo en el libro.</p>
                     <a  class="button-books" download="Alicia a través del espejo" href="../src/02_ALICIA A TRAVES DEL ESPEJO.pdf">Descargar</a>
                     <a  class="button-books" href="#">Comprar</a>
                 </div>
