@@ -70,7 +70,7 @@
 </html>
 
 <?php
-    require_once('/php/connection.php');
+    require_once('.connection.php');
     try{
         $sql = 'SELECT comentarios FROM `login` WHERE Opcion = :rol';
         $preparada = $db->prepare($sql);
