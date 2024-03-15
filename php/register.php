@@ -8,6 +8,12 @@
         <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
+    <code>
+
+    </code>
+    <php>
+
+    </php>
     <body>
     
         <header>
@@ -23,7 +29,7 @@
         
         <div class="content-form">
             <div class="form-container">
-                <form action="../php/procesar_registro.php.php" method="post">
+                <form action="./procesar_registro.php" method="post">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="nombre">Nombre:</label>
@@ -38,6 +44,12 @@
                         <div class="form-group">
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="direccion">Direccion:</label>
+                            <input type="direccion" id="direccion" name="direccion" required>
                         </div>
                     </div>
                     <div class="form-row">

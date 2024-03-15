@@ -1,7 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Aquí procesas los datos del formulario
-    $email = $_POST["email"];  // La variable $email ahora representa el correo electrónico
+    $email = $_POST["email"];
     $contrasena = $_POST["contrasena"];
 
     // Validaciones y autenticación de la base de datos aquí

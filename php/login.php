@@ -1,3 +1,12 @@
+<?php
+
+require_once('connection.php');
+$_email = $_POST['email'];
+$_password = $_POST['password'];
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -23,7 +32,7 @@
 
         <div class="content-form">
             <div class="form-container">
-                <form action="../php/procesar_login.php" method="post">
+                <form action="./procesar_login.php" method="post">
                     
                         <div class="form-group">
                             <label for="email">Email</label>
