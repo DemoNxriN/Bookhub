@@ -1,12 +1,3 @@
-<?php
-
-require_once('connection.php');
-$_email = $_POST['email'];
-$_password = $_POST['password'];
-
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -15,6 +6,7 @@ session_start();
         <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../css/style.css">
         <script src="../js/redirections.js"></script>
+        <script src="../js/alertr.js"></script>
         <title>Bookhub</title>
     </head>
     <body>

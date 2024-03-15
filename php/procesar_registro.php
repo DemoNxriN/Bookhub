@@ -1,5 +1,6 @@
 <?php
-require_once('connection.php');
+
+require_once('./connection.php');
 
 $nombreUsuario = $_POST["nombreUsuario"];
 $email = $_POST["email"];
@@ -12,14 +13,18 @@ $direccion = $_POST["direccion"];
 
 
 
-$sql = "INSERT INTO usuario (nombreUsuario, email, contrasena, nombre, apellido, fechaNacimiento)
+$sql = "INSERT INTO usuario (nombreUsuario, email, contrasena, nombre, apellido, fechaNacimiento, direccion)
         VALUES ('$nombreUsuario', '$email', '$contrasena', '$nombre', '$apellido', '$fechaNacimiento', '$direccion')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Registro exitoso para $nombreUsuario";
-} else {
+    $mensaje = urlencode("Registro exitoso para $nombreUsuario");
+    header("Location: ./login.php?mensaje=$mensaje");
+}
+
+else {
     echo "Error al registrar el usuario: " . $conn->error;
 }
 
 $conn->close();
+
 ?>

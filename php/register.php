@@ -8,12 +8,6 @@
         <script src="../js/redirections.js"></script>
         <title>Bookhub</title>
     </head>
-    <code>
-
-    </code>
-    <php>
-
-    </php>
     <body>
     
         <header>
