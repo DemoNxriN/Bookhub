@@ -27,8 +27,8 @@
                 <form action="./procesar_login.php" method="post">
                     
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                        <label for="nombreUsuario">Nombre de Usuario:</label>
+                            <input type="text" id="nombreUsuario" name="nombreUsuario" required>
                         </div>
                         <div class="form-group">
                             <label for="contrasena">Contraseña</label>

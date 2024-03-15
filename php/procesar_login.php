@@ -1,15 +1,32 @@
 <?php
-
 require_once('./connection.php');
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_POST["email"];
-    $contrasena = $_POST["contrasena"];
+session_start();
 
-    // Validaciones y autenticación de la base de datos aquí
-    // ...
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nombreUsuario = $_POST['nombreUsuario'] ?? '';
+    $contrasena = $_POST['contrasena'] ?? '';
 
-    // Ejemplo de mensaje de éxito
-    echo "<p style='color: green;'>¡Inicio de sesión exitoso para $email por correo electrónico!</p>";
+    $sql = "SELECT nombreUsuario, contrasena FROM usuario WHERE nombreUsuario = ? AND contrasena = ?";
+    if ($stmt = $mysqli->prepare($sql)) {
+        $stmt->bind_param("ss", $nombreUsuario, $contrasena);
+        
+        if ($stmt->execute()) {
+            $stmt->store_result();
+            
+            if ($stmt->num_rows == 1) {
+                $_SESSION['nombre_usuario'] = $nombreUsuario;
+                
+                header("Location: ../index.php");
+                exit;
+            } else {
+                echo "El nombre de usuario o la contraseña no son correctos.";
+            }
+        } else {
+            echo "Algo salió mal al intentar ejecutar tu consulta.";
+        }
+        $stmt->close();
+    }
+    $mysqli->close();
 }
 ?>
