@@ -33,7 +33,7 @@ function updateLoginState(isLoggedIn) {
     } else {
         // Restablece los botones a su estado original si el usuario cierra sesión
         const loginButton = document.getElementById('loginButton');
-        loginButton.innerText = 'Inicio de Sesión';
+        loginButton.innerText = 'Iniciar Sesión';
         loginButton.onclick = redirectToLogin; // Restablece a la función original de redirección
 
         const registerButton = document.getElementById('registerButton');
