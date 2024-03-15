@@ -23,7 +23,7 @@ function updateLoginState(isLoggedIn) {
     } else {
 
         const loginButton = document.getElementById('loginButton');
-        loginButton.innerText = 'Inicio de Sesión';
+        loginButton.innerText = 'Iniciar Sesión';
         loginButton.onclick = redirectToLogin;
         const registerButton = document.getElementById('registerButton');
         registerButton.innerText = 'Registro';
