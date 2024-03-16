@@ -1,6 +1,6 @@
 <?php
 
-require_once('validate_session.php');
+require_once('./php/validate_session.php'); 
 
 ?>
 
