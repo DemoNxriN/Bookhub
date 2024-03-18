@@ -43,7 +43,7 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="direccion">Direccion:</label>
-                            <input type="direccion" id="direccion" name="direccion" required>
+                            <input type="text" id="direccion" name="direccion" required>
                         </div>
                     </div>
                     <div class="form-row">
