@@ -36,6 +36,9 @@
             <div class="form-group">
                 <button type="submit" class="form-submit">Iniciar Sesión</button>
             </div>
+            <div class="form-group">
+                <a href="#">Has olvidado tu contraseña?</a>
+            </div>
         </form>
     </div>
 </div>
