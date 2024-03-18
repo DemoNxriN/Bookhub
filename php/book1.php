@@ -1,3 +1,9 @@
+<?php
+
+require_once('./validate_session.php'); 
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
