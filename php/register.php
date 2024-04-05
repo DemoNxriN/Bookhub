@@ -21,8 +21,8 @@
             <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button>
         </nav>
         
-        <div class="content-form">
-            <div class="form-container">
+        <div class="content-reg">
+            <div class="reg-container">
                 <form action="./procesar_registro.php" method="post">
                     <div class="form-row">
                         <div class="form-group">
