@@ -297,7 +297,6 @@ a.button-books:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72.6vh;
     background-color: #f0f0f0; /* Color de fondo ligero */
 }
 
