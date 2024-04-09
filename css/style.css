@@ -372,6 +372,12 @@ font-size: 25px;
 font-weight: 500;
 }
 
+.reg-container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .reg-group {
     margin: 20px;
 }
