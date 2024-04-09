@@ -35,19 +35,14 @@
                             <input type="text" id="apellido" name="apellido" required>
                         </div>
                     </div>
-                    <div class="form-row">
                         <div class="reg-group">
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="email" required>
                         </div>
-                    </div>
-                    <div class="form-row">
                         <div class="reg-group">
                             <label for="direccion">Direccion:</label>
                             <input type="text" id="direccion" name="direccion" required>
                         </div>
-                    </div>
-                    <div class="form-row">
                         <div class="reg-group">
                             <label for="nombreUsuario">Nombre de Usuario:</label>
                             <input type="text" id="nombreUsuario" name="nombreUsuario" required>
@@ -57,7 +52,6 @@
                             <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
                         </div>
                     </div>
-                    <div class="form-row">
                         <div class="reg-group">
                             <label for="contrasena">Contraseña:</label>
                             <input type="password" id="contrasena" name="contrasena" required>
