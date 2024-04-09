@@ -359,11 +359,17 @@ a.button-books:hover {
 
 .reg-container {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 25px 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 100%;
+    max-width: 700px;
     height: auto;
+}
+
+.reg-container h1 {
+font-size: 25px;
+font-weight: 500;
 }
 
 .reg-group {

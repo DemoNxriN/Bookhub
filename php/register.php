@@ -23,6 +23,7 @@
         
         <div class="content-regform">
             <div class="reg-container">
+                <h1>Registro</h1>
                 <form action="./procesar_registro.php" method="post">
                     <div class="form-row">
                         <div class="reg-group">
