@@ -27,11 +27,11 @@
             <button class="button-nav" id="registerButton" onclick="redirectToRegister()">Registro</button>
         </nav>
 
-        <main>
+        <section class="main-content"> 
             <section>
             <div class="iframemap" style="width: 100%"><iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=Pla%C3%A7a%20de%20les%20Arts,%2011,%2008401%20Granollers,%20Barcelona+(Bookhub)&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe></div>
             </section>
-        </main>
+        </section>
 
         <footer class="logfoot">
             <p>&copy; 2024 Bookhub. Todos los derechos reservados.</p>

@@ -13,20 +13,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+
+    background-color: #1c4865;
+
     display: flex;
     flex-direction: column;
+
     min-height: 100vh;
+}
+
+header, footer{
+    flex: 1;
 }
 
 header, nav {
     background-color: #1c4865;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 1em;
+    margin: 0em;
 }
 
 img.logo {
-    height: 100px;
+    height: 6.25em;
 }
 
 nav {
@@ -34,24 +43,13 @@ nav {
     justify-content: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
 nav button.button-nav {
     text-decoration: none;
     color: #ffffff;
     padding: 0 1em;
     border: none;
-    border-radius: 4px;
-    height: 40px;
+    border-radius: 0.25em;
+    height: 2.5em;
     width: 23%;
     background-color: #3a6b8a;
     margin: auto;
@@ -64,9 +62,13 @@ button.button-nav:hover {
 }
 
 .main-content {
+    flex: 6;
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    background-color: #fff;
 }
 
 article {
@@ -289,6 +291,30 @@ a.button-books:hover {
     width: auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Formularios */
 
 
@@ -297,12 +323,14 @@ a.button-books:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
     background-color: #f0f0f0; /* Color de fondo ligero */
+    flex: 6;
 }
 
 .form-container {
     background-color: #ffffff; /* Color de fondo del formulario */
-    padding: 20px;
+    padding: 1em;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     width: 300px; /* Ancho del formulario */
@@ -343,77 +371,4 @@ a.button-books:hover {
 
 .form-submit:hover {
     background-color: #1c4865; /* Color al pasar el mouse */
-}
-
-
-/* Formularios register*/
-
-
-.content-regform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*min-height: 80%;*/
-    background-color: #f0f0f0;
-}
-
-.reg-container {
-    background-color: #ffffff;
-    padding: 25px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-}
-
-.reg-container h1 {
-font-size: 25px;
-font-weight: 500;
-}
-
-.reg-container form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.reg-group {
-    margin: 20px;
-}
-
-.reg-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.reg-group input[type="text"],
-.reg-group input[type="password"],
-.reg-group input[type="date"],
-.reg-group input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
-}
-
-.reg-group a {
-    display: flex;
-    justify-content: center;
-}
-
-.reg-submit {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #3a6b8a;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.reg-submit:hover {
-    background-color: #1c4865; 
 }
